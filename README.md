@@ -1,9 +1,9 @@
 # 🎯 Sorufelek - Ders İçi Soru ve Kura Sistemi
 
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Pardus%20%28Linux%29-blue.svg)](https://github.com)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Pardus%20%28Linux%29-blue.svg)](https://github.com/EfeSacli/sorufelek)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-green.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE)
-[![Geliştirici](https://img.shields.io/badge/Geliştirici-Efe%20Saçlı-purple.svg)](https://github.com)
+[![Geliştirici](https://img.shields.io/badge/Geliştirici-Efe%20Saçlı-purple.svg)](https://github.com/EfeSacli)
 
 **Sorufelek**, öğretmenlerin ders esnasında öğrencilerine adil, sistematik ve dikkat dağıtmayan bir şekilde soru yöneltmelerini sağlayan modern, kurumsal bir masaüstü uygulamasıdır. 
 
@@ -60,7 +60,7 @@ Geliştiriciler ve Python ile doğrudan çalıştırmak isteyenler için:
 
 ```bash
 # 1. Depoyu klonlayın
-git clone https://github.com/efesacli/sorufelek.git
+git clone https://github.com/EfeSacli/sorufelek.git
 cd sorufelek
 
 # 2. Gerekli kütüphaneleri yükleyin

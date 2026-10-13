@@ -1,29 +1,26 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-
-# PyInstaller
-*.manifest
+# Closed Source: Gizli Kaynak Kodlar (GitHub'a yüklenmez)
+*.py
+*.iss
+version_info.txt
 *.spec
+requirements.txt
+
+# Derleme ve Geçici Dosyalar
 build/
 dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Application generated user files
+# Büyük İkili Dağıtım Dosyaları (GitHub Releases'a yüklenir)
+*.exe
+*.zip
+
+# Kullanıcı Verileri ve İşletim Sistemi
 sorufelek_verileri.json
 *.log
-
-# OS generated
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 .DS_Store
-
-# Large binaries (upload to GitHub Releases instead)
-*.exe
-*.zip

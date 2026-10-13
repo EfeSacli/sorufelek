@@ -54,41 +54,10 @@ Hem **Windows (10 / 11)** hem de **Pardus (MEB Fatih Akıllı Tahtaları)** sist
 
 ---
 
-## 🛠️ Kaynak Koddan Çalıştırma
+## 🔒 Güvenlik ve Gizlilik
 
-Geliştiriciler ve Python ile doğrudan çalıştırmak isteyenler için:
-
-```bash
-# 1. Depoyu klonlayın
-git clone https://github.com/EfeSacli/sorufelek.git
-cd sorufelek
-
-# 2. Gerekli kütüphaneleri yükleyin
-pip install -r requirements.txt
-
-# 3. Uygulamayı başlatın
-python app.py
-```
-
----
-
-## 📂 Proje Yapısı
-
-```text
-├── app.py                     # Ana uygulama başlatıcı ve pencere denetleyicisi
-├── main_window.py             # Sınıf ve kura yönetim paneli
-├── corner_widget.py           # Ekranın köşesinde duran minimalist HUD arayüzü
-├── data_manager.py            # Veritabanı ve JSON veri yönetimi
-├── sound_effects.py           # Kura ses efektleri modülü
-├── utils.py                   # Yardımcı işlevler ve kaynak yolu yönetimi
-├── requirements.txt           # Python kütüphane bağımlılıkları
-├── baslat.sh                  # Pardus / Linux için taşınabilir başlatıcı
-├── kurulum_pardus.sh          # Pardus masaüstü ve menü entegrasyon betiği
-├── sorufelek.desktop          # Linux masaüstü kısayol tanımlayıcısı
-├── setup.iss                  # Windows Inno Setup kurulum betiği
-├── build_exe.py               # Otomatik derleme betiği
-└── icon.png / icon.ico        # Uygulama simgeleri
-```
+- **%100 Yerel Veri Saklama:** Sorufelek hiçbir veriyi internete göndermez veya depolamaz. Tüm sınıf ve öğrenci verileri yalnızca kendi bilgisayarınızda şifrelenmiş/güvenli olarak saklanır.
+- **Çevrimdışı Çalışma:** Program hiçbir internet bağlantısına ihtiyaç duymaz, akıllı tahtalarda ve kişisel bilgisayarlarda tam performansla çalışır.
 
 ---
 
@@ -96,4 +65,5 @@ python app.py
 
 Geliştirici: **Efe Saçlı**  
 Telif Hakkı © 2026 Efe Saçlı. Tüm hakları saklıdır.  
-Bu proje [MIT Lisansı](LICENSE) kapsamında açık kaynak olarak paylaşılmıştır.
+Sorufelek, öğretmenler ve eğitim kurumları için ücretsiz bir masaüstü yazılımıdır.
+

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Sorufelek
+GenericName=Ders İçi Soru ve Kura Sistemi
+Comment=Öğretmenler için adil, kompakt ve modern kura ve soru yöneltme sistemi
+Exec=bash -c "cd $(dirname %k) && ./baslat.sh"
+Icon=sorufelek
+Terminal=false
+Categories=Education;Teaching;Utility;
+StartupNotify=true

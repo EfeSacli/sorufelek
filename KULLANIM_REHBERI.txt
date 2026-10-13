@@ -1,0 +1,50 @@
+========================================================================
+SORUFELEK - DERS İÇİ SORU VE KURA SİSTEMİ
+========================================================================
+
+Sorufelek, öğretmenlerin ders esnasında öğrencilerine adil, sistematik ve 
+dikkat dağıtmayan bir şekilde soru yöneltmelerini sağlayan kurumsal bir 
+Windows masaüstü uygulamasıdır.
+
+------------------------------------------------------------------------
+1. KURULUM (ÖNERİLEN)
+------------------------------------------------------------------------
+Klasördeki "Sorufelek_Kurulum.exe" dosyasına çift tıklayınız:
+- Dosyalar otomatik olarak "C:\Program Files\Sorufelek" dizinine kurulur.
+- Masaüstünüzde otomatik olarak "Sorufelek" kısayolu oluşturulur.
+- Başlat menüsüne Sorufelek eklenir.
+- İleride istenirse Windows Ayarlar / Denetim Masası üzerinden tek tıkla 
+  kaldırılabilir (Uninstaller).
+
+* Görev Çubuğuna Sabitleme: Masaüstündeki "Sorufelek" simgesine sağ tıklayıp 
+  "Görev çubuğuna sabitle" diyerek derslerde tek tıkla açabilirsiniz.
+
+------------------------------------------------------------------------
+2. TAŞINABİLİR (PORTABLE) KULLANIM
+------------------------------------------------------------------------
+Kurulum yapmadan doğrudan USB bellek üzerinden çalıştırmak isterseniz 
+"Sorufelek.exe" dosyasını kullanabilirsiniz.
+
+------------------------------------------------------------------------
+3. KISAYOL TUŞLARI
+------------------------------------------------------------------------
+- SPACE (Boşluk) veya ENTER : Öğrenci Seçimi / Yeni Tur Başlatma
+- CTRL + Z                  : Son Seçimi Geri Al
+- ESC                       : Yönetim Paneline Dönüş
+
+------------------------------------------------------------------------
+4. WINDOWS GÜVENLİK / UYGULAMA DENETİMİ BİLGİLENDİRMESİ
+------------------------------------------------------------------------
+Windows 11'in yeni "Akıllı Uygulama Denetimi (Smart App Control)" özelliği 
+açık olan bilgisayarlarda, bağımsız ve yerel yazılımlar çalıştırılırken 
+"Kod 4551: Uygulama denetimi bu dosyayı engelledi" uyarısı çıkabilir.
+
+Çözüm:
+1. Başlat menüsünden "Windows Güvenliği" uygulamasını açın.
+2. "Uygulama ve tarayıcı denetimi" bölümüne tıklayın.
+3. "Akıllı Uygulama Denetimi ayarları" kısmına girip "Kapalı" yapınız.
+(Windows Gerçek Zamanlı Virüs Koruması aktif kalmaya devam eder).
+
+* Okullardaki Fatih Akıllı Tahtalarında ve Windows 10 sistemlerde bu denetim 
+  bulunmadığından uygulama doğrudan sorunsuz çalışır.
+========================================================================

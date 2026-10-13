@@ -1,0 +1,39 @@
+========================================================================
+SORUFELEK - PARDUS / LINUX KULLANIM REHBERİ
+========================================================================
+Geliştirici: Efe Saçlı
+Sistem: Pardus (Debian / Linux) ve MEB Fatih Akıllı Tahtalar
+
+------------------------------------------------------------------------
+1. KURULUMSUZ (PORTABLE) ÇALIŞTIRMA
+------------------------------------------------------------------------
+Zipten çıkardığınız klasörün içinde terminal açarak veya doğrudan çift
+tıklayarak:
+
+    ./baslat.sh
+
+veya terminalden:
+    bash baslat.sh
+
+* Not: baslat.sh betiği sisteminizde Python veya gerekli kütüphaneler eksikse 
+  otomatik tespit edip yükler ve Sorufelek'i başlatır.
+
+------------------------------------------------------------------------
+2. SİSTEME VE MASAÜSTÜNE KURMA (ÖNERİLEN)
+------------------------------------------------------------------------
+Sorufelek'i Pardus Başlat Menüsü'ne (Eğitim kategorisi) ve Masaüstünüze 
+eklemek için klasör içindeki kurulum betiğini çalıştırın:
+
+    ./kurulum_pardus.sh
+
+Kurulum bittikten sonra:
+- Masaüstünüzdeki "Sorufelek" simgesine çift tıklayarak açabilirsiniz.
+- Pardus Başlat Menüsü > Eğitim > Sorufelek yolundan ulaşabilirsiniz.
+
+------------------------------------------------------------------------
+3. KISAYOL TUŞLARI
+------------------------------------------------------------------------
+- SPACE (Boşluk) veya ENTER : Öğrenci Seçimi / Yeni Kura Başlatma
+- CTRL + Z                  : Son Seçimi Geri Al
+- ESC                       : Yönetim Paneline Dönüş
+========================================================================

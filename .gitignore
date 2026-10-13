@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# PyInstaller
+*.manifest
+*.spec
+build/
+dist/
+
+# Application generated user files
+sorufelek_verileri.json
+*.log
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Large binaries (upload to GitHub Releases instead)
+*.exe
+*.zip

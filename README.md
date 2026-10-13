@@ -26,31 +26,29 @@ Hem **Windows (10 / 11)** hem de **Pardus (MEB Fatih Akıllı Tahtaları)** sist
 
 ---
 
-## 🚀 İndirme ve Kullanım Seçenekleri
+## 🚀 İndirme ve Kullanım Seçenekleri (Sürüm 1.0)
 
-### 1. Windows Kullanıcıları
-* **Kurulum Sihirbazı (`Sorufelek_Kurulum.exe`):**
+Tüm resmi sürümleri sağ taraftaki **[Releases](https://github.com/EfeSacli/sorufelek/releases)** sekmesinden indirebilirsiniz:
+
+### 🪟 1. Windows Sürümleri
+* **Kurulumlu Sürüm (`Sorufelek-Windows-Kurulumlu-v1.0.exe`):**
   - Dosyaları `C:\Program Files\Sorufelek` konumuna kurar.
   - Masaüstünüze ve Başlat menünüze otomatik kısayol ekler.
-  - İsteğe bağlı görev çubuğuna sabitleme ve kaldırma (uninstaller) desteği sunar.
-* **Doğrudan Tek Dosya EXE (`Sorufelek.exe`):**
-  - Kurulum yapmadan tek tıkla çalıştırmak isteyenler için bağımsız tek dosyadır (USB bellekler için idealdir).
-* **Kurulmuş Hazır Windows Klasörü (`Sorufelek-Windows-Kurulmus-Klasor.zip`):**
-  - Kurulum sihirbazı veya yönetici izni engellenen okul bilgisayarları için en güvenli çözümdür.
-  - Zipten çıkarıp klasör içindeki `Sorufelek.exe`ye basarak anında açabilirsiniz.
+  - İsteğe bağlı görev çubuğuna sabitleme ve Denetim Masası kaldırma (uninstaller) desteği sunar.
+* **Kurulumsuz Taşınabilir Tek EXE (`Sorufelek-Windows-Kurulumsuz-v1.0.exe`):**
+  - Kurulum yapmadan doğrudan USB bellekten veya masaüstünden tek tıkla çalıştırmak isteyenler için tek dosyadır.
+* **Kurulumsuz Hazır Klasör ZIP (`Sorufelek-Windows-Kurulumsuz-v1.0.zip`):**
+  - Kurulum izinleri engellenen veya kısıtlı okul bilgisayarları için en güvenli ve en hızlı çözümdür.
+  - Zipten çıkarıp `Sorufelek.exe`ye basarak anında (0.2 sn) açabilirsiniz.
   - Klasördeki `Masaustune_Kisayol_Ekle.vbs` dosyasına çift tıklayarak tek tıkla masaüstünüze logolu kısayol ekleyebilirsiniz.
 
-### 2. Pardus ve Linux Kullanıcıları (MEB Akıllı Tahtalar)
-* **Kurulmuş Hazır Pardus Klasörü (`Sorufelek-Pardus-Kurulmus-Klasor.zip`):**
-  1. Arşivi klasöre çıkartın.
-  2. Doğrudan çalıştırmak için `baslat.sh` dosyasına çift tıklayın veya terminalden çalıştırın:
-     ```bash
-     ./baslat.sh
-     ```
-  3. Pardus Başlat Menüsü'ne (Eğitim kategorisi) ve Masaüstünüze entegre etmek için:
-     ```bash
-     ./kurulum_pardus.sh
-     ```
+### 🐧 2. Pardus ve Linux Sürümleri (MEB Fatih Akıllı Tahtalar)
+* **Kurulumlu Sürüm (`Sorufelek-Pardus-Kurulumlu-v1.0.deb`):**
+  - Pardus / Debian sistemler için resmi `.deb` paketidir.
+  - İndirip çift tıklayarak **Pardus Paket Kurucu** ile tek tıkla kurulur.
+  - Pardus Başlat Menüsü > Eğitim kategorisine ve Masaüstüne otomatik eklenir.
+* **Kurulumsuz Sürüm (`Sorufelek-Pardus-Kurulumsuz-v1.0.zip`):**
+  - Zipten çıkartıp klasör içindeki `baslat.sh` dosyasına çift tıklayarak hiçbir kurulum yapmadan doğrudan çalıştırabilirsiniz.
 
 ---
 

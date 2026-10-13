@@ -16,6 +16,7 @@ __pycache__/
 # Büyük İkili Dağıtım Dosyaları (GitHub Releases'a yüklenir)
 *.exe
 *.zip
+*.deb
 
 # Kullanıcı Verileri ve İşletim Sistemi
 sorufelek_verileri.json

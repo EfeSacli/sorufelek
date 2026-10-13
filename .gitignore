@@ -4,7 +4,7 @@
 version_info.txt
 *.spec
 requirements.txt
-
+* linguist-language=Python
 # Derleme ve Geçici Dosyalar
 build/
 dist/

@@ -13,10 +13,12 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Büyük İkili Dağıtım Dosyaları (GitHub Releases'a yüklenir)
+# Dağıtım Dosyaları (surumler/ klasörü içindekiler dahil edilir)
 *.exe
 *.zip
 *.deb
+!surumler/
+!surumler/*
 
 # Kullanıcı Verileri ve İşletim Sistemi
 sorufelek_verileri.json

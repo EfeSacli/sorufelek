@@ -28,27 +28,28 @@ Hem **Windows (10 / 11)** hem de **Pardus (MEB Fatih Akıllı Tahtaları)** sist
 
 ## 🚀 İndirme ve Kullanım Seçenekleri (Sürüm 1.0)
 
-Tüm resmi sürümleri sağ taraftaki **[Releases](https://github.com/EfeSacli/sorufelek/releases)** sekmesinden indirebilirsiniz:
+Aşağıdaki bağlantılardan sisteminize uygun olan sürümü tek tıkla doğrudan indirebilirsiniz:
 
 ### 🪟 1. Windows Sürümleri
-* **Kurulumlu Sürüm (`Sorufelek-Windows-Kurulumlu-v1.0.exe`):**
+* 📦 **[Sorufelek Windows Kurulumlu v1.0 (.exe)](https://github.com/EfeSacli/sorufelek/raw/main/surumler/Sorufelek-Windows-Kurulumlu-v1.0.exe)**
   - Dosyaları `C:\Program Files\Sorufelek` konumuna kurar.
   - Masaüstünüze ve Başlat menünüze otomatik kısayol ekler.
-  - İsteğe bağlı görev çubuğuna sabitleme ve Denetim Masası kaldırma (uninstaller) desteği sunar.
-* **Kurulumsuz Taşınabilir Tek EXE (`Sorufelek-Windows-Kurulumsuz-v1.0.exe`):**
-  - Kurulum yapmadan doğrudan USB bellekten veya masaüstünden tek tıkla çalıştırmak isteyenler için tek dosyadır.
-* **Kurulumsuz Hazır Klasör ZIP (`Sorufelek-Windows-Kurulumsuz-v1.0.zip`):**
+  - Görev çubuğuna sabitleme ve Denetim Masası kaldırma (uninstaller) desteği sunar.
+* ⚡ **[Sorufelek Windows Kurulumsuz Tek EXE v1.0 (.exe)](https://github.com/EfeSacli/sorufelek/raw/main/surumler/Sorufelek-Windows-Kurulumsuz-v1.0.exe)**
+  - Kurulum yapmadan doğrudan USB bellekten veya masaüstünden tek tıkla çalıştırmak için tek dosya.
+* 🗂️ **[Sorufelek Windows Kurulumsuz Hazır Klasör v1.0 (.zip)](https://github.com/EfeSacli/sorufelek/raw/main/surumler/Sorufelek-Windows-Kurulumsuz-v1.0.zip)**
   - Kurulum izinleri engellenen veya kısıtlı okul bilgisayarları için en güvenli ve en hızlı çözümdür.
   - Zipten çıkarıp `Sorufelek.exe`ye basarak anında (0.2 sn) açabilirsiniz.
   - Klasördeki `Masaustune_Kisayol_Ekle.vbs` dosyasına çift tıklayarak tek tıkla masaüstünüze logolu kısayol ekleyebilirsiniz.
 
 ### 🐧 2. Pardus ve Linux Sürümleri (MEB Fatih Akıllı Tahtalar)
-* **Kurulumlu Sürüm (`Sorufelek-Pardus-Kurulumlu-v1.0.deb`):**
+* 🐧 **[Sorufelek Pardus Kurulumlu v1.0 (.deb)](https://github.com/EfeSacli/sorufelek/raw/main/surumler/Sorufelek-Pardus-Kurulumlu-v1.0.deb)**
   - Pardus / Debian sistemler için resmi `.deb` paketidir.
   - İndirip çift tıklayarak **Pardus Paket Kurucu** ile tek tıkla kurulur.
   - Pardus Başlat Menüsü > Eğitim kategorisine ve Masaüstüne otomatik eklenir.
-* **Kurulumsuz Sürüm (`Sorufelek-Pardus-Kurulumsuz-v1.0.zip`):**
+* 📦 **[Sorufelek Pardus Kurulumsuz v1.0 (.zip)](https://github.com/EfeSacli/sorufelek/raw/main/surumler/Sorufelek-Pardus-Kurulumsuz-v1.0.zip)**
   - Zipten çıkartıp klasör içindeki `baslat.sh` dosyasına çift tıklayarak hiçbir kurulum yapmadan doğrudan çalıştırabilirsiniz.
+
 
 ---
 
